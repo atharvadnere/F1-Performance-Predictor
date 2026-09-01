@@ -15,7 +15,7 @@ A Linear Regression model trained on race data from the 2021 to 2024 seasons. Th
 1. Clone this repository
 2. Install the required libraries: `pip install pandas matplotlib scikit-learn`
 3. Make sure the CSV files are in the same folder as the notebook
-4. Open `f1_predictor.ipynb` and run all cells in order
+4. Open `f1_predictor.ipynb` in the "Data" folder and run all cells in order
 
 ## Results
 
