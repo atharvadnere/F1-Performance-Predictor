@@ -31,9 +31,9 @@ This isn't because of real-world race unpredictability — it's a structural lim
 
 ## Limitations
 
-This model uses a single feature — starting grid position — to predict finishing position. In reality, race outcomes depend on a lot more: weather conditions, tire compound and strategy, pit stop timing, mechanical or electrical failures, safety cars, and driver/team form on the day. None of that is captured here.
+This model uses a single feature, which is the starting grid position to predict finishing position. In reality, race outcomes depend on a lot more factors like weather conditions, tire compound and strategy, pit stop timing, mechanical or electrical failures, safety cars, and driver/team form on the day. None of that is captured here.
 
-An R² of 0.57 reflects this directly — grid position explains a meaningful share of the outcome, but a large part is left to factors outside this model's scope. Extending it with additional features (team/constructor strength, weather data, tire choice) or trying a more flexible model (like Random Forest) would likely close some of that gap. See the notebook's conclusion for more on this.
+An R² of 0.57 reflects this directly as grid position explains a meaningful share of the outcome, but a large part is left to factors outside this model's scope. Extending it with additional features (team/constructor strength, weather data, tire choice) or trying a more flexible model (like Random Forest) would likely close some of that gap. See the notebook's conclusion for more on this.
 
 ## How to run
 
