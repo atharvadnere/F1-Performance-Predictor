@@ -33,7 +33,7 @@ This isn't because of real-world race unpredictability. I found mathematics to b
 
 I chose for the model to have a single feature, which is the starting grid position to predict finishing position. In reality, race outcomes depend on a lot more factors like weather conditions, tire compound and strategy, pit stop timing, mechanical or electrical failures, safety cars, and driver/team form on the day. None of that is captured here.
 
-An R² of 0.57 reflects this directly as grid position explains a meaningful share of the outcome, but a large part is left to factors outside this model's scope. Extending it with additional features (team/constructor strength, weather data, tire choice) or trying a more flexible model (like Random Forest) would likely close some of that gap. See the notebook's conclusion for more on this.
+An R² of 0.57 reflects this directly as grid position explains a meaningful share of the outcome, but a large part is left to factors outside this model's scope. Extending it with additional features (team/constructor strength, weather data, tire choice) or trying a more flexible model (like Random Forest) would likely close some of that gap.
 
 ## How to run
 
@@ -41,3 +41,4 @@ An R² of 0.57 reflects this directly as grid position explains a meaningful sha
 2. Install the required libraries: `pip install pandas matplotlib scikit-learn`
 3. Make sure the CSV files are in the same folder as `f1_predictor.ipynb`
 4. Open [`f1_predictor.ipynb`](f1_predictor.ipynb) and run all cells in order
+
