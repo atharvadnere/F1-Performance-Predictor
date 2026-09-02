@@ -2,7 +2,7 @@
 
 A simple machine learning project that predicts a driver's finishing position in a Formula 1 race based on their starting grid position.
 
-![Grid vs Finish Position](PATH_TO_SCREENSHOT.png)
+![Grid vs Finish Position](grid_vs_finish.png)
 
 ## Dataset
 
